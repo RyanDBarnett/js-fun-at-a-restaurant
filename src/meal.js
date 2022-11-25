@@ -1,5 +1,5 @@
-function nameMenuItem() {
-
+function nameMenuItem(item) {
+  return "Delicious " + item;
 }
 
 
@@ -11,5 +11,3 @@ module.exports = {
   // decreasePrice,
   // createRecipe
 }
-
-
